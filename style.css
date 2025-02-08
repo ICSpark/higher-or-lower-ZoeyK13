@@ -5,24 +5,23 @@ body {
     color:white;
 }
 
-h1 {
-    /*make sure to center this!*/
+h1 { 
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     font-size: 50px;
+    
 }
 
 p {
-  /*make sure to center this!*/
+    display: flex;
+    justify-content: center;
     font-size: 30px;
     font-weight: bold;
 }
 
-/*
-Use Flexbox to center everything in .center
-    
- */
-
-.center {
-/*make sure to center this!*/
+.center { 
+    display: flex;
+    justify-content: center;
     height: 50px;
 }
